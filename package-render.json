@@ -1,0 +1,15 @@
+{
+  "name": "discord-voice-notify",
+  "version": "1.0.0",
+  "description": "ボイスチャンネル入室を検知してテキストチャンネルに通知するDiscord Bot（Render対応版）",
+  "main": "index-render.js",
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "scripts": {
+    "start": "node index-render.js"
+  },
+  "dependencies": {
+    "discord.js": "^14.14.1"
+  }
+}
